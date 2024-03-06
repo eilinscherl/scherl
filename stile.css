@@ -50,7 +50,7 @@ p {
 }
 
 #navigation{
-	max-width:2000px;
+	max-width:3000px;
 	background-color: #F7EBF5;
 	height:110px;
 	margin-top:-8px;
@@ -269,7 +269,7 @@ li{
 
 #footer{
 	background-color: #F7EBF5;
-	max-width:2000px;
+	max-width:3000px;
 	font-family:arial;
 	height: 100px;
   	text-align: center;
