@@ -545,3 +545,16 @@ li{
 
 
  }
+
+ @media screen and (max-width: 492px) {
+
+	.box1{
+		width:80%;
+    }
+
+	.box2{
+		width:85%;
+		font-size:10px;
+		}
+
+ }
