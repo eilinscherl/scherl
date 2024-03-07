@@ -309,16 +309,53 @@ li{
 		}
 
 	.manual{
-		margin-left:720px;
+		margin-left:830px;
 		}
 
 	.klickmich{
-		margin-left:950px;
+		margin-left:1100px;
 	
 		}
 }
 
- @media screen and (max-width: 1200px) {
+@media screen and (max-width: 1920px) {
+
+	.grafiken img{
+		width:30%;
+		padding-left:20px;
+		}
+		
+	.boxgrau{
+		margin-left:20px;
+		}
+	
+	.boxrosa{
+		margin-left:20px;
+		}
+
+	.webseiten img{
+		width:20%;
+		padding-left:60px;
+		padding-top:30px;
+		}
+
+	.projekte img{
+		width:32%;
+		margin-left:30px;
+		}
+	
+
+	.manual{
+		margin-left:520px;
+		}
+
+	.klickmich{
+		margin-left:800px;
+	
+		}
+}
+
+ @media screen and (max-width: 1280px) {
     
 	h1{
 		font-size:18px;
@@ -368,7 +405,7 @@ li{
 	}
 
 	.klickmich{
-		margin-left:500px;
+		margin-left:480px;
 
 	}
 
