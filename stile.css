@@ -278,7 +278,84 @@ li{
 
  /* Responsive*/
 
- @media screen and (max-width: 1200px) {
+ @media screen and (max-width: 2560px) {
+
+	.grafiken img{
+		width:30%;
+		padding-left:32px;
+		}
+		
+	.boxgrau{
+		margin-left:100px;
+		}
+	
+	.boxrosa{
+		margin-left:100px;
+		}
+
+	.webseiten img{
+		width:20%;
+		padding-left:65px;
+		padding-top:30px;
+		}
+
+	.projekte img{
+		margin-left:150px !important;
+		width:24%;
+		}
+	
+		h3{
+			display: none;
+		}
+
+	.manual{
+		margin-left:830px;
+		}
+
+	.klickmich{
+		margin-left:1100px;
+	
+		}
+}
+
+@media screen and (max-width: 1920px) {
+
+	.grafiken img{
+		width:30%;
+		padding-left:20px;
+		}
+		
+	.boxgrau{
+		margin-left:20px;
+		}
+	
+	.boxrosa{
+		margin-left:20px;
+		}
+
+	.webseiten img{
+		width:20%;
+		padding-left:60px;
+		padding-top:30px;
+		}
+
+	.projekte img{
+		width:32%;
+		margin-left:30px;
+		}
+	
+
+	.manual{
+		margin-left:520px;
+		}
+
+	.klickmich{
+		margin-left:800px;
+	
+		}
+}
+
+ @media screen and (max-width: 1280px) {
     
 	h1{
 		font-size:18px;
@@ -328,11 +405,9 @@ li{
 	}
 
 	.klickmich{
-		margin-left:500px;
+		margin-left:480px;
 
 	}
-
-	
 
 }
 
@@ -505,5 +580,18 @@ li{
 }
 
 
+
+ }
+
+ @media screen and (max-width: 492px) {
+
+	.box1{
+		width:80%;
+    }
+
+	.box2{
+		width:85%;
+		font-size:10px;
+		}
 
  }
