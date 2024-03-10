@@ -460,10 +460,7 @@ li{
 }
 
 @media screen and (max-width: 768px) {
-	#navigation li{
-		padding:10px;
-		font-size:18px;
-	}
+	
 	
 	h1{
 		font-size:14px;
