@@ -113,7 +113,6 @@ a:active {
 
 #content{
 	background-color:#C1B8C0;
-	max-width:3000px;
 	display:flow-root;
 	
 }
@@ -271,7 +270,7 @@ li{
 
 #footer{
 	background-color: #F7EBF5;
-	max-width:2000px;
+	max-width:3000px;
 	font-family:arial;
 	height: 100px;
   	text-align: center;
