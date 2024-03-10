@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+		<div id="header">
+			<title>dESign</title>
+			<link rel="stylesheet" href="stile.css">
+			<div class="logo">
+				<img src="Logos/design.png" alt="logo">
+			</div>
+		</div>
+	
+</head>
+	
+	
+<body>
+
+
+<nav id= "navigation">
+	<hr>
+	 <ul>
+		  <li>
+			<a href="index.html">Home</a>
+			</li>
+
+		   <li>
+			<a href="bilder.html">Bilder</a>
+			</li>
+
+	  	   <li>
+			<a href="grafiken.html">Grafiken</a>
+		    </li>
+	
+		  <li>
+			<a href="videos.html">Videos/Animationen</a>
+		  </li>
+	
+		  <li>
+			<a href="geschaftsausstattung.html">Geschäftsausstattung</a>
+		  </li>
+
+		  <li>
+			<a href="webseiten.html">Webseiten</a>
+		  </li>
+
+		  <li>
+			<a href="projekte.html">Projekte</a>
+		  </li>
+
+		  <li>
+			<a href="manual.html">CD Manual</a>
+		  </li>
+	</ul>
+	
+	
+
+	
+</nav>
+	
+
+<div id="content">
+	<h2>Bilder</h2>
+	<!--Slider-->
+       
+            <!-- Slideshow container -->
+            <div class="slideshow-container container-fluid">
+
+				<!-- Full-width images with number and caption text -->
+				<div class="mySlides fade">
+				  <div class="numbertext box">1 / 5</div>
+				  <img src="/Volumes/EILIN/Webseite PORTFOLIO/Bilder/blume.jpg" style="width:100%">
+				  <div class="text">Blume</div>
+				</div>
+  
+				<div class="mySlides fade">
+				  <div class="numbertext box">2 / 5</div>
+				  <img src="/Volumes/EILIN/Webseite PORTFOLIO/Bilder/gras.jpg" style="width:100%">
+				  <div class="text">Gras</div>
+				</div>
+  
+				<div class="mySlides fade">
+				  <div class="numbertext box">3 / 5</div>
+				  <img src="/Volumes/EILIN/Webseite PORTFOLIO/Bilder/roteblume.jpg" style="width:100%">
+				  <div class="text">Rote Blume</div>
+				</div>
+  
+				<div class="mySlides fade">
+				  <div class="numbertext box">4 / 5</div>
+				  <img src="/Volumes/EILIN/Webseite PORTFOLIO/Bilder/wassertropfen.jpg" style="width:100%">
+				  <div class="text">Wassertropfen</div>
+				</div>
+  
+				<div class="mySlides fade">
+				  <div class="numbertext box">5 / 5</div>
+				  <img src="/Volumes/EILIN/Webseite PORTFOLIO/Bilder/boden.jpg" style="width:100%">
+				  <div class="text">Bodenmalerei</div>
+				</div>
+  
+				<!-- Next and previous buttons -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			  </div>
+			  <br>
+  
+			  <!-- The dots/circles -->
+			  <div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+				<span class="dot" onclick="currentSlide(5)"></span>
+			  </div> 
+  
+			  <script>
+				let slideIndex = 1;
+				showSlides(slideIndex);
+				
+				function plusSlides(n) {
+				  showSlides(slideIndex += n);
+				}
+				
+				function currentSlide(n) {
+				  showSlides(slideIndex = n);
+				}
+				
+				function showSlides(n) {
+				  let i;
+				  let slides = document.getElementsByClassName("mySlides");
+				  let dots = document.getElementsByClassName("dot");
+				  if (n > slides.length) {slideIndex = 1}    
+				  if (n < 1) {slideIndex = slides.length}
+				  for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";  
+				  }
+				  for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";  
+				  dots[slideIndex-1].className += " active";
+				}
+				</script>
+</div>
+	
+<div id="footer">
+	© Eilin Scherl 2024<br><br>
+	eilin.scherl@gmx.at / 06506404944
+</div>
+
+
+</body>
+</html>
