@@ -356,6 +356,43 @@ li{
 		}
 }
 
+@media screen and (max-width: 1600px) {
+
+	.grafiken img{
+		width:30%;
+		padding-left:20px;
+		}
+		
+	.boxgrau{
+		margin-left:20px;
+		}
+	
+	.boxrosa{
+		margin-left:20px;
+		}
+
+	.webseiten img{
+		width:20%;
+		padding-left:60px;
+		padding-top:30px;
+		}
+
+	.projekte img{
+		width:32%;
+		margin-left:30px;
+		}
+	
+
+	.manual{
+		margin-left:520px;
+		}
+
+	.klickmich{
+		margin-left:800px;
+	
+		}
+}
+
  @media screen and (max-width: 1280px) {
     
 	h1{
