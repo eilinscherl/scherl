@@ -670,3 +670,15 @@ li{
 		}
 
  }
+
+ @media screen and (max-width: 454px) {
+
+	.boxgrau{
+		margin-left:100px;
+		}
+	
+	.boxrosa{
+		margin-left:100px;
+		}
+
+ }
