@@ -282,8 +282,9 @@ li{
  @media screen and (max-width: 2560px) {
 
 	.grafiken img{
-		width:30%;
-		padding-left:32px;
+		width:50%;
+		height:100%;
+		padding-left:600px;
 		}
 		
 	.boxgrau{
@@ -301,8 +302,9 @@ li{
 		}
 
 	.projekte img{
-		margin-left:150px !important;
-		width:24%;
+		margin-left:250px !important;
+		width:35%;
+		height:100%;
 		}
 	
 		h3{
@@ -310,7 +312,7 @@ li{
 		}
 
 	.manual{
-		margin-left:830px;
+		margin-left:850px;
 		}
 
 	.klickmich{
@@ -322,8 +324,9 @@ li{
 @media screen and (max-width: 1920px) {
 
 	.grafiken img{
-		width:30%;
-		padding-left:20px;
+		width:50%;
+		height:100%;
+		padding-left:500px;
 		}
 		
 	.boxgrau{
@@ -347,7 +350,7 @@ li{
 	
 
 	.manual{
-		margin-left:520px;
+		margin-left:540px;
 		}
 
 	.klickmich{
@@ -357,19 +360,12 @@ li{
 }
 
 @media screen and (max-width: 1600px) {
-
 	.grafiken img{
-		width:29%;
-		padding-left:20px;
-		}
-		
-	.boxgrau{
-		margin-left:20px;
+		width:50%;
+		height:100%;
+		padding-left:400px;
 		}
 	
-	.boxrosa{
-		margin-left:20px;
-		}
 
 	.webseiten img{
 		width:30%;
@@ -379,27 +375,47 @@ li{
 
 	.projekte img{
 		width:37%;
-		margin-left:20px;
+		margin-left:480px !important;
 		}
 	
 
 	.manual{
-		margin-left:420px;
+		margin-left:400px;
 		}
 
 	.klickmich{
-		margin-left:700px;
+		margin-left:680px;
 	
 		}
 }
 
-@media screen and (max-width: 1366px) {
+
+@media screen and (max-width: 1440px) {
 
 	.grafiken img{
-		width:29%;
-		padding-left:20px;
+		width:50%;
+		height:100%;
+		padding-left:340px;
+		}
+		
+
+	.projekte img{
+		width:35%;
 		}
 	
+
+	.manual{
+		margin-left:300px;
+		}
+
+	.klickmich{
+		margin-left:550px;
+	
+		}
+}
+
+
+@media screen and (max-width: 1366px) {
 
 	.projekte img{
 		width:45%;
@@ -408,11 +424,11 @@ li{
 	
 
 	.manual{
-		margin-left:320px;
+		margin-left:270px;
 		}
 
 	.klickmich{
-		margin-left:600px;
+		margin-left:550px;
 	
 		}
 }
@@ -463,7 +479,7 @@ li{
 
 
 	.manual{
-		margin-left:200px;
+		margin-left:220px;
 	}
 
 	.klickmich{
