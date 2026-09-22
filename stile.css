@@ -49,6 +49,12 @@ p {
   	color: black;
 }
 
+li {
+	font size:20px;
+	padding-top:0px;
+	text-align:right;
+}
+	
 #navigation{
 	max-width:3000px;
 	background-color: #F7EBF5;
