@@ -48,12 +48,6 @@ h3{
 p {
   	color: black;
 }
-
-li {
-	font-size:20px;
-	padding:0px;
-	text-align:right;
-}
 	
 #navigation{
 	max-width:3000px;
@@ -269,8 +263,6 @@ ul {
 
 li{
 	font-size:30px;
-	padding-top:120px;
-	text-align:center;
 	
 }
 
